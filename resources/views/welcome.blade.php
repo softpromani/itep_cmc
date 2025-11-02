@@ -544,9 +544,9 @@
                             About Us
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#about-college">About College</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/about-college" target="blank">About College</a></li>
                             <li><a class="dropdown-item" href="#about-itep">About ITEP</a></li>
-                            <li><a class="dropdown-item" href="#vision-mission">Vision & Mission</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/vision-mission" target="blank">Vision & Mission</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -567,10 +567,10 @@
                             Facilities
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#library">Library</a></li>
-                            <li><a class="dropdown-item" href="#laboratories">Laboratories</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/college-library">Library</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="blank">Laboratories</a></li>
                             <li><a class="dropdown-item" href="#seminar-hall">Seminar Hall</a></li>
-                            <li><a class="dropdown-item" href="#student-support">Student Support</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="blank">Student Support</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -915,7 +915,7 @@
                         <div class="highlight-icon">
                             <i class="fas fa-book-reader"></i>
                         </div>
-                        <h4>Library</h4>
+                        <a href="https://www.cmclnmu.ac.in/college-library"><h4>Library</h4></a>
                         <p>109,000+ books, 10 journals, 15 periodicals, 300 encyclopedias with 120-seat reading room</p>
                     </div>
                 </div>
@@ -924,7 +924,7 @@
                         <div class="highlight-icon">
                             <i class="fas fa-school"></i>
                         </div>
-                        <h4>Practice Schools</h4>
+                        <a href="https://www.cmclnmu.ac.in/" target="blank"><h4>Practice Schools</h4></a>
                         <p>10+ affiliated schools for practical teaching training and internship programs</p>
                     </div>
                 </div>
@@ -933,7 +933,7 @@
                         <div class="highlight-icon">
                             <i class="fas fa-flask"></i>
                         </div>
-                        <h4>Laboratories</h4>
+                        <a href="https://www.cmclnmu.ac.in/" target="blank"><h4>Laboratories</h4></a>
                         <p>Well-equipped science labs, computer labs, and educational technology centers</p>
                     </div>
                 </div>
@@ -942,7 +942,7 @@
                         <div class="highlight-icon">
                             <i class="fas fa-dumbbell"></i>
                         </div>
-                        <h4>Sports Facilities</h4>
+                        <a href="https://www.cmclnmu.ac.in/sports-games" target="blank"><h4>Sports Facilities</h4></a>
                         <p>Tennis, Basketball, Football, Cricket, Volleyball, Swimming Pool, and more</p>
                     </div>
                 </div>
@@ -967,7 +967,7 @@
                     <ul>
                         <li><a href="#about-itep">About ITEP</a></li>
                         <li><a href="#admission">Admission Process</a></li>
-                        <li><a href="#faculty">Faculty Members</a></li>
+                        <li><a href="{{ asset('files/Details of ITEP faculty members (1).pdf') }}" target="blank">Faculty Members</a></li>
                         <li><a href="#facilities">Facilities</a></li>
                         <li><a href="#ncte">NCTE Recognition</a></li>
                         <li><a href="#mandatory-disclosure">Mandatory Disclosures</a></li>
