@@ -1,4 +1,8 @@
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @include('layouts.header')
+    <style>
         :root {
             --primary-color: #0d6efd;
             --secondary-color: #6c757d;
@@ -476,3 +480,21 @@
             }
         }
 
+</style>
+</head>
+<body>
+    @include('layouts.topbar')
+
+      <nav class="navbar navbar-expand-lg sticky-top">
+    @include('layouts.navbar')
+
+      </nav>
+
+    <main>
+        @yield('content')
+    </main>
+
+    @include('layouts.footer')
+    @include('includes.scripts')
+</body>
+</html>

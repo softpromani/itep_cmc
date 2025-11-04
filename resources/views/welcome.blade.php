@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,7 +57,7 @@
         /* Header */
         .main-header {
             background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             padding: 20px 0;
         }
 
@@ -93,7 +94,7 @@
 
         .navbar-nav .nav-link:hover,
         .navbar-nav .nav-link.active {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             color: var(--accent-color) !important;
         }
 
@@ -109,7 +110,7 @@
         }
 
         .dropdown-item:hover {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             color: var(--accent-color) !important;
         }
 
@@ -136,7 +137,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(30,60,114,0.8) 0%, rgba(42,82,152,0.6) 100%);
+            background: linear-gradient(135deg, rgba(30, 60, 114, 0.8) 0%, rgba(42, 82, 152, 0.6) 100%);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -148,7 +149,7 @@
             font-size: 48px;
             font-weight: 700;
             margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .hero-content p {
@@ -170,7 +171,7 @@
         .btn-custom:hover {
             background: #ffb300;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(255,193,7,0.4);
+            box-shadow: 0 5px 15px rgba(255, 193, 7, 0.4);
         }
 
         /* Quick Info Section */
@@ -191,7 +192,7 @@
 
         .info-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
         }
 
         .info-card i {
@@ -241,7 +242,7 @@
             background: white;
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
         .about-content p {
@@ -254,7 +255,7 @@
         .about-image {
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
         .about-image img {
@@ -281,7 +282,7 @@
 
         .highlight-card:hover {
             border-color: var(--primary-color);
-            box-shadow: 0 10px 30px rgba(13,110,253,0.1);
+            box-shadow: 0 10px 30px rgba(13, 110, 253, 0.1);
             transform: translateY(-5px);
         }
 
@@ -318,11 +319,11 @@
         }
 
         .message-card {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             padding: 40px;
             border-radius: 15px;
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .principal-image {
@@ -367,7 +368,7 @@
             background: white;
             border-radius: 15px;
             padding: 40px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             margin-bottom: 30px;
         }
 
@@ -469,7 +470,7 @@
 
         .quick-link-badge:hover {
             transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
             color: white;
         }
 
@@ -493,6 +494,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Top Bar -->
@@ -500,7 +502,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <i class="fas fa-phone"></i> Contact: <a href="mailto:info@cmclnmu.ac.in" class="__cf_email__">info@cmclnmu.ac.in</a>
+                    <i class="fas fa-phone"></i> Contact: <a href="mailto:info@cmclnmu.ac.in"
+                        class="__cf_email__">info@cmclnmu.ac.in</a>
                 </div>
                 <div class="col-md-6 text-end">
                     <a href="#"><i class="fas fa-user"></i> Student Portal</a>
@@ -544,9 +547,11 @@
                             About Us
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/about-college" target="blank">About College</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/about-college"
+                                    target="blank">About College</a></li>
                             <li><a class="dropdown-item" href="#about-itep">About ITEP</a></li>
-                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/vision-mission" target="blank">Vision & Mission</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/vision-mission"
+                                    target="blank">Vision & Mission</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -567,14 +572,18 @@
                             Facilities
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/college-library">Library</a></li>
-                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="blank">Laboratories</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/college-library">Library</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/"
+                                    target="blank">Laboratories</a></li>
                             <li><a class="dropdown-item" href="#seminar-hall">Seminar Hall</a></li>
-                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="blank">Student Support</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="blank">Student
+                                    Support</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#faculty">Faculty</a>
+                        <a class="nav-link" href="{{ asset('files/Details of ITEP faculty members (1).pdf') }}"
+                            target="_blank">Faculty</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -635,10 +644,12 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
@@ -707,13 +718,39 @@
                 <div class="col-md-6">
                     <div class="about-content">
                         <p>
-                            C. M. College (Arts and Commerce), Darbhanga, envisions introducing the Four-Year Integrated Teacher Education Programme (ITEP) in alignment with the National Education Policy (NEP) 2020. The programme aims to nurture a generation of passionate, motivated, and professionally competent teachers who are well-equipped to design and deliver developmentally appropriate learning experiences for students across various stages of school education.
+                            C. M. College (Arts and Commerce), Darbhanga, envisions introducing the Four-Year Integrated
+                            Teacher Education Programme (ITEP) in alignment with the National Education Policy (NEP)
+                            2020. The programme aims to nurture a generation of passionate, motivated, and
+                            professionally competent teachers who are well-equipped to design and deliver
+                            developmentally appropriate learning experiences for students across various stages of
+                            school education.
                         </p>
                         <p>
-                            The college seeks to ensure that prospective teachers receive the highest quality education encompassing content mastery, pedagogical innovation, ethical grounding, and hands-on practice. As highlighted in NEP 2020, teacher education is a cornerstone in shaping future generations. It requires a multidisciplinary approach integrating subject expertise, pedagogical proficiency, values, and reflective practice under expert mentorship.
+                            The college seeks to ensure that prospective teachers receive the highest quality education
+                            encompassing content mastery, pedagogical innovation, ethical grounding, and hands-on
+                            practice. As highlighted in NEP 2020, teacher education is a cornerstone in shaping future
+                            generations. It requires a multidisciplinary approach integrating subject expertise,
+                            pedagogical proficiency, values, and reflective practice under expert mentorship.
                         </p>
                         <p>
-                            In this spirit, C. M. College aspires to prepare teachers deeply rooted in Indian values, languages, and knowledge systems, including local and tribal traditions, while remaining attuned to global advancements in education and pedagogy.
+                            In this spirit, C. M. College aspires to prepare teachers deeply rooted in Indian values,
+                            languages, and knowledge systems, including local and tribal traditions, while remaining
+                            attuned to global advancements in education and pedagogy.
+                        </p>
+
+                        <p>
+                            In accordance with NEP 2020 (Paras 5.22 and 15.5), the ITEP will embody the
+                            multidisciplinary vision of teacher preparation. By 2026-27, the college aims to offer the
+                            four-year integrated B.Ed. programme as a dual-major holistic degree—combining Education
+                            with a specialized subject such as Economics, History, Political Science, Geography,
+                            English, Hindi, Urdu and Commerce. The curriculum will not only emphasize innovative
+                            pedagogy but also include foundations in psychology, sociology, history, science, early
+                            childhood care and education, foundational literacy and numeracy, and knowledge of India’s
+                            heritage, ethos, and art traditions.
+
+                            Through this initiative, C. M. College (Arts and Commerce), Darbhanga seeks to emerge as a
+                            centre of excellence in teacher education, contributing to the national goal of creating
+                            well-qualified, value-oriented, and future-ready educators.
                         </p>
                     </div>
                 </div>
@@ -734,7 +771,8 @@
                             <i class="fas fa-chalkboard-teacher"></i>
                         </div>
                         <h4>Dual Major Degree</h4>
-                        <p>Combine Education with specializations in Economics, History, Political Science, Geography, English, Hindi, Urdu, or Commerce</p>
+                        <p>Combine Education with specializations in Economics, History, Political Science, Geography,
+                            English, Hindi, Urdu, or Commerce</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -743,7 +781,8 @@
                             <i class="fas fa-lightbulb"></i>
                         </div>
                         <h4>Innovative Pedagogy</h4>
-                        <p>Learn modern teaching methodologies, educational psychology, and technology-integrated instruction</p>
+                        <p>Learn modern teaching methodologies, educational psychology, and technology-integrated
+                            instruction</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -803,13 +842,23 @@
                             <h5>Principal, C.M. College Darbhanga</h5>
                         </div>
                         <p>
-                            It gives me immense pleasure to announce that C. M. College (Arts and Commerce), Darbhanga, is planning to introduce the Four-Year Integrated B.A. B.Ed. and B.Com. B.Ed. Programmes from the academic session 2026–27. This significant academic initiative marks a new milestone in our college's journey toward academic excellence and nation-building through quality teacher education.
+                            It gives me immense pleasure to announce that C. M. College (Arts and Commerce), Darbhanga,
+                            is planning to introduce the Four-Year Integrated B.A. B.Ed. and B.Com. B.Ed. Programmes
+                            from the academic session 2026–27. This significant academic initiative marks a new
+                            milestone in our college's journey toward academic excellence and nation-building through
+                            quality teacher education.
                         </p>
                         <p>
-                            The Integrated Teacher Education Programme (ITEP) aims to equip aspiring teachers with a blend of disciplinary knowledge, pedagogical skills, and ethical values. Students opting for this course will receive a comprehensive education that combines deep subject understanding with modern teaching methodologies, educational psychology, and the rich cultural heritage of India.
+                            The Integrated Teacher Education Programme (ITEP) aims to equip aspiring teachers with a
+                            blend of disciplinary knowledge, pedagogical skills, and ethical values. Students opting for
+                            this course will receive a comprehensive education that combines deep subject understanding
+                            with modern teaching methodologies, educational psychology, and the rich cultural heritage
+                            of India.At the College, our experienced faculty, learner-friendly environment, and commitment to excellence will ensure that every student emerges as a confident, competent, and compassionate educator, ready to contribute meaningfully to school education and beyond.
                         </p>
                         <p>
-                            I warmly welcome all students who aspire to pursue a career in teaching to join this innovative and career-oriented programme. Together, let us embrace this new beginning and uphold the values of knowledge, integrity, and service that define C. M. College.
+                            I warmly welcome all students who aspire to pursue a career in teaching to join this
+                            innovative and career-oriented programme. Together, let us embrace this new beginning and
+                            uphold the values of knowledge, integrity, and service that define C. M. College.
                         </p>
                     </div>
                 </div>
@@ -892,10 +941,16 @@
                     <div class="admission-card">
                         <h4><i class="fas fa-university"></i> About C.M. College</h4>
                         <p>
-                            Chandradhari Mithila Mahavidyalaya, Darbhanga (Bihar), considered the Pride of Mithila is one of the ancient seats of learning not only in Bihar but in the entire country. As a premier institution, the College was established in 1938 and it subsequently became a constituent unit of Lalit Narayan Mithila University.
+                            Chandradhari Mithila Mahavidyalaya, Darbhanga (Bihar), considered the Pride of Mithila is
+                            one of the ancient seats of learning not only in Bihar but in the entire country. As a
+                            premier institution, the College was established in 1938 and it subsequently became a
+                            constituent unit of Lalit Narayan Mithila University.
                         </p>
                         <p>
-                            The College is now entering its eighty-sixth year since its inception. It has been accredited with B++ by NAAC in 2025. The college has excellent infrastructure including a library with over 109,000 books, modern laboratories, seminar halls, sports facilities, hostels, and a spacious campus divided by the river Bagmati.
+                            The College is now entering its eighty-sixth year since its inception. It has been
+                            accredited with B++ by NAAC in 2025. The college has excellent infrastructure including a
+                            library with over 109,000 books, modern laboratories, seminar halls, sports facilities,
+                            hostels, and a spacious campus divided by the river Bagmati.
                         </p>
                     </div>
                 </div>
@@ -915,7 +970,9 @@
                         <div class="highlight-icon">
                             <i class="fas fa-book-reader"></i>
                         </div>
-                        <a href="https://www.cmclnmu.ac.in/college-library"><h4>Library</h4></a>
+                        <a href="https://www.cmclnmu.ac.in/college-library">
+                            <h4>Library</h4>
+                        </a>
                         <p>109,000+ books, 10 journals, 15 periodicals, 300 encyclopedias with 120-seat reading room</p>
                     </div>
                 </div>
@@ -924,7 +981,9 @@
                         <div class="highlight-icon">
                             <i class="fas fa-school"></i>
                         </div>
-                        <a href="https://www.cmclnmu.ac.in/" target="blank"><h4>Practice Schools</h4></a>
+                        <a href="https://www.cmclnmu.ac.in/" target="blank">
+                            <h4>Practice Schools</h4>
+                        </a>
                         <p>10+ affiliated schools for practical teaching training and internship programs</p>
                     </div>
                 </div>
@@ -933,7 +992,9 @@
                         <div class="highlight-icon">
                             <i class="fas fa-flask"></i>
                         </div>
-                        <a href="https://www.cmclnmu.ac.in/" target="blank"><h4>Laboratories</h4></a>
+                        <a href="https://www.cmclnmu.ac.in/" target="blank">
+                            <h4>Laboratories</h4>
+                        </a>
                         <p>Well-equipped science labs, computer labs, and educational technology centers</p>
                     </div>
                 </div>
@@ -942,7 +1003,9 @@
                         <div class="highlight-icon">
                             <i class="fas fa-dumbbell"></i>
                         </div>
-                        <a href="https://www.cmclnmu.ac.in/sports-games" target="blank"><h4>Sports Facilities</h4></a>
+                        <a href="https://www.cmclnmu.ac.in/sports-games" target="blank">
+                            <h4>Sports Facilities</h4>
+                        </a>
                         <p>Tennis, Basketball, Football, Cricket, Volleyball, Swimming Pool, and more</p>
                     </div>
                 </div>
@@ -958,7 +1021,8 @@
                     <h5>Contact Information</h5>
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> Quilaghat, Darbhanga - 846004, Bihar</li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@cmclnmu.ac.in" class="__cf_email__">info@cmclnmu.ac.in</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@cmclnmu.ac.in"
+                                class="__cf_email__">info@cmclnmu.ac.in</a></li>
                         <li><i class="fas fa-globe"></i> www.cmclnmu.ac.in</li>
                     </ul>
                 </div>
@@ -967,7 +1031,8 @@
                     <ul>
                         <li><a href="#about-itep">About ITEP</a></li>
                         <li><a href="#admission">Admission Process</a></li>
-                        <li><a href="{{ asset('files/Details of ITEP faculty members (1).pdf') }}" target="blank">Faculty Members</a></li>
+                        <li><a href="{{ asset('files/Details of ITEP faculty members (1).pdf') }}"
+                                target="blank">Faculty Members</a></li>
                         <li><a href="#facilities">Facilities</a></li>
                         <li><a href="#ncte">NCTE Recognition</a></li>
                         <li><a href="#mandatory-disclosure">Mandatory Disclosures</a></li>
@@ -1007,12 +1072,13 @@
     </footer>
 
     <!-- Bootstrap JS -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -1047,4 +1113,5 @@
     </script>
 
 </body>
+
 </html>
