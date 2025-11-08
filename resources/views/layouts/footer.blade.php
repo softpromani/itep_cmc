@@ -19,7 +19,7 @@
                                 target="blank">Faculty Members</a></li>
                         <li><a href="#facilities">Facilities</a></li>
                         <li><a href="#ncte">NCTE Recognition</a></li>
-                        <li><a href="#mandatory-disclosure">Mandatory Disclosures</a></li>
+                        <li><a href="{{ route('mandatory.index') }}">Mandatory Disclosures</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">

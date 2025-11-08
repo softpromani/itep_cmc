@@ -24,24 +24,24 @@
                             Programme
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#programme-structure">Programme Structure</a></li>
-                            <li><a class="dropdown-item" href="#curriculum">Curriculum</a></li>
-                            <li><a class="dropdown-item" href="#specializations">Specializations</a></li>
+                            <li><a class="dropdown-item" href="https://lnmu.ac.in/syllabus-4-year-course-cbsc" target="_blank">Programme Structure</a></li>
+                            <li><a class="dropdown-item" href="https://lnmu.ac.in/academic-calendar" target="_blank">Curriculum</a></li>
+                            <li><a class="dropdown-item" href="https://cmclnmu.ac.in/self-finance-ug-courses" target="_blank">Specializations</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#admission">Admission</a>
+                        <a class="nav-link" href="https://cmclnmu.ac.in/information-bulletin-admission" target="_blank">Admission</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                             Facilities
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/college-library">Library</a>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/college-library" target="_blank">Library</a>
                             </li>
                             <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/"
                                     target="blank">Laboratories</a></li>
-                            <li><a class="dropdown-item" href="#seminar-hall">Seminar Hall</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/college-infrastructure" target="_blank">Seminar Hall</a></li>
                             <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="blank">Student
                                     Support</a></li>
                         </ul>
@@ -55,14 +55,14 @@
                             Resources
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#regulations">Regulations</a></li>
-                            <li><a class="dropdown-item" href="#syllabus">Syllabus</a></li>
-                            <li><a class="dropdown-item" href="#ncte">NCTE</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/regulation" target="_blank">Regulations</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/examination" target="_blank">Syllabus</a></li>
+                            <li><a class="dropdown-item" href="https://www.cmclnmu.ac.in/" target="_blank">NCTE</a></li>
                             <li><a class="dropdown-item {{ Request::is('mandatory') ? 'active' : '' }}" href="{{ route('mandatory.index') }}">Mandatory Disclosures</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="https://www.cmclnmu.ac.in/" target="_blank">Contact</a>
                     </li>
                 </ul>
             </div>
