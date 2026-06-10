@@ -91,7 +91,7 @@
 
       <section class="quick-links-section">
         <div class="container text-center">
-            <a href="https://www.cmclnmu.ac.in/admission-procedure" target="_blank" class="quick-link-badge"><i class="fas fa-file-alt"></i> Admission Form</a>
+            <a href="https://www.cmcollegedarbhanga.in/itep_apply/index" target="_blank" class="quick-link-badge"><i class="fas fa-file-alt"></i> Apply Here</a>
             <a href="https://lnmu.ac.in/academic-calendar" class="quick-link-badge" target="_blank"><i class="fas fa-calendar-alt"></i> Academic Calendar</a>
             <a href="https://www.cmclnmu.ac.in/college-research" class="quick-link-badge"target="_blank"><i class="fas fa-download"></i> Prospectus</a>
             <a href="{{ asset('files/syllabus.pdf') }}" class="quick-link-badge" target="_blank"><i class="fas fa-book-open"></i> Syllabus</a>
